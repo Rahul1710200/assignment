@@ -8,7 +8,7 @@ export default function App() {
 
   return (
    <>
-   <div className="overflow-hidden">
+   <div className="">
     <FirstPage/>
     <SecondPage/>
     <ThirdPage1/>

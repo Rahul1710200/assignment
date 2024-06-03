@@ -15,9 +15,9 @@
   width: 510px;
   height: 140px;
   background: rgba(255, 0, 0, 0.6) ;
-  filter: blur(60px); /* Adjust the blur effect */
-  z-index: -1; /* Ensure the background is behind the text */
-  border-radius: 40%; /* Optional: makes the background more rounded */
+  filter: blur(60px); 
+  z-index: -1; 
+  border-radius: 40%; 
 }
 .lower-right {
   position: relative;
@@ -36,7 +36,7 @@
   width: 510px;
   height: 200px;
   background: rgba(255, 0, 0, 0.6) ;
-  filter: blur(60px); /* Adjust the blur effect */
-  z-index: -1; /* Ensure the background is behind the text */
-  border-radius: 40%; /* Optional: makes the background more rounded */
+  filter: blur(60px); 
+  z-index: -1; 
+  border-radius: 40%; 
 }
