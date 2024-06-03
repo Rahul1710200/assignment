@@ -26,7 +26,7 @@ function SecondPage() {
           
         </div>
       </div>
-      <div className="right mt-[20vw]">
+      <div className="right2 mt-[20vw]">
         <div>
           <p className="text-red-400 text-3xl uppercase">Features</p>
           <h1 className="text-[4vw] font-bold tracking-tighter"> Uifry Premium</h1>

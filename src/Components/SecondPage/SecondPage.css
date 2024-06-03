@@ -32,12 +32,12 @@
     z-index: -2;
   }
   
-  .right {
+  .right2{
     position: relative;
     padding: 20px;
   }
   
-  .right::before {
+  .right2::before {
     content: '';
     position: absolute;
     bottom: 50%;
@@ -51,7 +51,7 @@
     z-index: -1;
   }
   
-  .right::after {
+  .right2::after {
     content: '';
     position: absolute;
     bottom: 20%;

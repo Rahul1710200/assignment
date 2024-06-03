@@ -5,7 +5,7 @@ import './FirstPage.css'
 function FirstPage() {
   return (
     <div className="main w-full h-screen pt-[2vw]  ">
-      <nav className=" w-full h-[5vw] flex justify-between items-center pl-[4vw]   ">
+      <nav className=" h-[5vw] flex justify-between items-center pl-[4vw]   ">
         <div className="flex gap-[5vw] ml-[5vw]">
           <div className="left1">
             <img className="w-[7vw] h-[2.5vw]" src={assets.Group}></img>
