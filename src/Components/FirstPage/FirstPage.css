@@ -1,0 +1,42 @@
+.sp1 {
+  position: relative;
+  display: inline-block;
+  /* color: white; */
+  font-weight: bold;
+  /* Strong red shadow */
+}
+
+.sp1::before {
+  content: '';
+  position: absolute;
+  top: 37%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  width: 510px;
+  height: 140px;
+  background: rgba(255, 0, 0, 0.6) ;
+  filter: blur(60px); /* Adjust the blur effect */
+  z-index: -1; /* Ensure the background is behind the text */
+  border-radius: 40%; /* Optional: makes the background more rounded */
+}
+.lower-right {
+  position: relative;
+  display: inline-block;
+  /* color: white; */
+  font-weight: bold;
+  /* Strong red shadow */
+}
+
+.lower-right::before {
+  content: '';
+  position: absolute;
+  top: 37%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  width: 510px;
+  height: 200px;
+  background: rgba(255, 0, 0, 0.6) ;
+  filter: blur(60px); /* Adjust the blur effect */
+  z-index: -1; /* Ensure the background is behind the text */
+  border-radius: 40%; /* Optional: makes the background more rounded */
+}

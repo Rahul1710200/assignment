@@ -1,0 +1,66 @@
+.phone-wire {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+  }
+  
+  .phone-wire::before {
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 40%;
+    background: rgba(255, 255, 0, 0.4);
+    filter: blur(40px);
+    z-index: -1;
+  }
+  
+  .phone-wire::after {
+    content: '';
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 50%;
+    background: rgba(255, 0, 0, 0.6);
+    filter: blur(60px);
+    z-index: -2;
+  }
+  
+  .right {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .right::before {
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: 100%;
+    top: 34%;
+    transform: translateX(-10%);
+    width: 30%;
+    height: 30%;
+    background: rgba(255, 0, 0, 0.8);
+    filter: blur(40px);
+    z-index: -1;
+  }
+  
+  .right::after {
+    content: '';
+    position: absolute;
+    bottom: 20%;
+    left: 100%;
+    transform: translateX(-10%);
+    width: 40%;
+    height: 15%;
+    background: rgba(255, 255, 0, 0.6);
+    filter: blur(60px);
+    z-index: -2;
+  }
+  

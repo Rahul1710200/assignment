@@ -1,0 +1,36 @@
+.phone-wire1 {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+  }
+  
+  .phone-wire1::before {
+    content: '';
+    position: absolute;
+    bottom: 30%;
+    left: 40%;
+    transform: translateX(-40%);
+    width: 50%;
+    height: 30%;
+    background:  rgba(255, 0, 0, 0.6);
+    filter: blur(40px);
+    z-index: -1;
+  }
+  
+  .phone-wire1::after {
+    content: '';
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 20%;
+
+    background: rgba(255, 255, 0, 0.6);
+    filter: blur(60px);
+    z-index: -2;
+  }
+  
+  
