@@ -3,7 +3,7 @@ import { assets } from "../../assets/Assets"
 
 function FourthPage() {
   return (
-    <div className="w-full h-[23vw]" >
+    <div className="w-full h-[27vw]" >
     <div className=" ml-[11vw] flex gap-[5vw]">
     <div className=" first flex flex-col gap-5">
         <div>    

@@ -22,7 +22,7 @@ function SecondPage() {
         <div className="  ml-[8vw] ">
         
           <div className="relative  rotate-[15deg] mt-[4vw]  z-10">
-            <img className="w-[50vw] h-[52vw] " src={assets.iphone2}></img>
+            <img className="w-[50vw] h-[52vw]  " src={assets.iphone2}></img>
           
            
           <div className="  absolute  top-[5vw] left-[-1vw] z-[-1] rotate-[-10deg]">
