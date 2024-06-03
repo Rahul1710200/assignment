@@ -85,12 +85,12 @@ function FirstPage() {
         <div className="absolute top-[9vw] right-[-1vw]  object-cover z-20">
           <img src={assets.iphone}></img>
         </div>
-        <div className="mb-[2vw] absolute right-[6vw] top-[2vw] object-cover rotate-180 z-10">
+        <div className="mb-[2vw] absolute right-[1vw] top-[2vw] object-cover rotate-180 z-10">
           <img src={assets.wire}></img>
         </div>
         </div>
        
-        <div className="mb-[2vw] absolute right-[35vw] top-[33vw] object-cover rotate-150 z-50">
+        <div className="mb-[2vw] absolute right-[40vw] top-[35vw] object-cover rotate-150 z-50">
           <img src={assets.star}></img>
         </div>
       </div>
